@@ -24,7 +24,7 @@ pip install pytrends prophet statsmodels pmdarima joblib streamlit
 Usage
 Data Collection:
 python
-Copy
+
 from pytrends.request import TrendReq
 
 # Setup and send a query to Google Trends
@@ -37,7 +37,7 @@ Train the time-series models (Prophet, ARIMA) using the historical data and fine
 
 Prediction:
 python
-Copy
+
 from fbprophet import Prophet
 
 # Prophet model for forecasting
@@ -61,6 +61,5 @@ Expansion: Extend the model to additional regions or diseases to increase its ap
 Contributors
 Abisek Raut: Data Science, Modeling, and Web App Development
 vbnet
-Copy
 
-This README is structured to be GitHub-friendly, providing clear sections for
+
